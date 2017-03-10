@@ -10,6 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font-family: "Abhaya Libre", serif;
 }
 
 *, *::before, *::after {
@@ -46,5 +47,19 @@ li {
   border-color: transparent;
   color: #fff;
   background-color: #15114c;
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  h1 {
+    display: inline-block;
+    text-align: left;
+  }
+
+  nav {
+    display: inline-block;
+    text-align: right;
+  }
 
 }

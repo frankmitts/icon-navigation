@@ -26,16 +26,12 @@ h1 {
   color: #fff;
 }
 
-nav {
+.nav {
   text-align: center;
 }
 
-ul {
-  margin: 0;
-}
-
 li {
- display: inline-block;
+  display: inline-block;
 }
 
 .logo {
@@ -52,13 +48,11 @@ li {
 
 @media only screen and (min-width: 60em) {
 
-  h1 {
-    display: inline-block;
+  .logo {
     text-align: left;
   }
 
-  nav {
-    display: inline-block;
+  .nav {
     text-align: right;
   }
 
